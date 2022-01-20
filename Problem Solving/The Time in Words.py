@@ -23,10 +23,6 @@ def timeInWords(h, m):
           19 : 'nineteen', 20 : 'twenty',
           30 : 'thirty', 40 : 'forty', 50 : 'fifty', 60 : 'sixty',
           70 : 'seventy', 80 : 'eighty', 90 : 'ninety' }
-    def past_hour(h,m) :
-        pass
-    def to_hour(h,m) :
-        pass
     
     if m %15 == 0 :
         if m==30 :
